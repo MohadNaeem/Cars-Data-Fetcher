@@ -1,0 +1,46 @@
+.container {
+  margin-top: 16px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.toolbarContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.searchBarContainer {
+  display: flex;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.paginationContainer {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .searchBarContainer {
+    width: 100%;
+  }
+
+  .iconButton {
+    margin-top: 8px;
+  }
+}
